@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    text-align: center;
+    display: block;
+    background-image: 100px;
+    font-family:'Merriweather', sans-serif;
+}
+h1 {
+    margin-top: 0;
+    width: 8%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+    text-shadow: 4px 4px 8px gray;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px gray;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px gray;
+}
+.top-container {
+    background-color: #E4f9f5;
+    position: relative;
+    padding: 100px;
+}
+.top-container p {
+    font-size: 16px;
+    text-shadow: 2px 2px 4px gray;
+}
+.middle-container {
+    background:linear-gradient(white,#166D3B)
+}
+.middle-container .profile {
+    margin-top: 10px;
+}
+.middle-container h2 {
+    text-shadow: 2px 2px 4px white;
+}
+.middle-container p {
+    margin-bottom: 30px;
+}
+hr {
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 10%;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 500px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+.bottom-container {
+    width: 100vw;
+    background: linear-gradient(white,#55EFC4);
+    display: flex;
+    padding: 25px;
+    padding-left: 35%;
+}
+.bottom-container a {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.bottom-container p .pat {
+    text-align: center;
+}
+.bottom-container i {
+    font-size: 16px;
+    margin: 3px;
+}
+.bottom-container a:hover {
+    background: darkgoldenrod;
+    transition: .5s;
+}
+.profile {
+    border-radius: 69% 31% 52% 48% / 30% 30% 70% 70% ;
+    
+}
+.contact-me {
+     font-size: 20px;
+     background: linear-gradient(white,#923CB5);
+} 
+.contact-me h2 {
+    color: black;
+}
+.skills{
+    background: linear-gradient(white,#FFA69E);
+    box-sizing: border-box;
+}
+.skills img.eating {
+    float: left;
+    border-radius: 500px;
+}
+.skills img.games {
+    float: right;
+    margin-top: 90px;
+    border-radius: 500px;
+}
+.skill-row h3 {
+    margin-top: 100px;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px red;
+}
+.pat {
+    background: linear-gradient(#55EFC4,yellow);
+    padding: 25px;
+}
